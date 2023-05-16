@@ -1,12 +1,8 @@
+import style from './Button.module.scss'
 
 export default function Button() {
-  const isActive = true;
-  const styles = {
-    backgroundColor:isActive ? "yellow" : "pink"
-  }
-
   return (
-    <button style={styles}>
+    <button className={style.botao}>
         Botão
     </button>
   )
